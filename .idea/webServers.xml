@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f55debd3-62ad-4893-b714-c2a1adf19b3d" name="jweber" url="http://jweber.mccdgm.net">
+        <fileTransfer host="jweber.mccdgm.net" port="21" rootFolder="/public_html/javascript">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

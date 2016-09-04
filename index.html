@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="/lib/w3-theme-indigo.css">
+
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>JavaScript Functions</title>
+    <script src="myfunctionscript.js"></script>
+</head>
+
+<body>
+<!-- Here are the page headings -->
+<div class="w3-container w3-section w3-border w3-round-xlarge w3-border-indigo">
+    <header class="w3-panel w3-text-indigo" id="head">
+        <h1>Demonstrating JavaScript Functions</h1>
+        <h4>Changing Images OnClick</h4>
+    </header>
+
+    <!-- Here are the thumbnails -->
+    <div class="left">
+        <div class="w3-container w3-section w3-border w3-round-xlarge w3-border-indigo" style="background-color:#f7ebfa">
+            <a href="#large"><img src="images/D1.png" alt="Daisy, pure bred Rhodesian Ridgeback"
+                                  title="Daisy the pure bred Rhodesian Ridgeback" onclick="change01()"></a><br>
+            <a href="#large"><img src="images/S1.png" alt="Star, Pekenese/Beagle Mix"
+                                  title="Star, Pekenese/Beagle Mix" onclick="change02()"></a><br>
+            <a href="#large"><img src="images/SD1.png" alt="Star and Daisy"
+                                  title="Star and Daisy" onclick="change03()"></a><br>
+            <a href="#large"><img src="images/M1.png" alt="Marley, Malinois/Shepherd Mix?"
+                                  title="Marley, Malinois/Shepherd Mix?" onclick="change04()"></a><br>
+            <a href="#large"><img src="images/L3.png" alt="Lacey, Shepherd Mix?"
+                                  title="Lacey, Shepherd Mix?" onclick="change05()"></a><br>
+            <a href="#large"><img src="images/ML1.png" alt="Marley & Lacey (close-up)"
+                                  title="Marley & Lacey - sisters at heart!" onclick="change06()"></a><br>
+            <a href="#large"><img src="images/S2.png" alt="Star in cowboy hat"
+                                  title="Star in cowboy hat" onclick="change07()"></a><br>
+            <a href="#large"><img src="images/threeDogs.png" alt="Dogs by fireplace"
+                                  title="Dogs by fireplace" onclick="change08()"></a><br>
+            <a href="#large"><img src="images/M2.png" alt="Marley & toilet paper"
+                                  title="Marley & toilet paper" onclick="change09()"></a><br>
+            <a href="#large"><img src="images/L2.png" alt="Empty flower container"
+                                  title="Empty flower container" onclick="change10()"></a><br>
+            <a href="#large"><img src="images/threeDogs2.png" alt="Dogs in car"
+                                  title="Dogs in car" onclick="change11()"></a><br>
+        </div>
+    </div>
+
+    <!-- This is the enlarged image (on the right) with text below -->
+    <div class="right">
+        <div class="w3-container w3-section w3-border w3-round-xlarge w3-border-indigo" style="background-color:#f7ebfa">
+            <img id="large" src="images/D1.png" alt="The late Daisy!">
+            <p id="largeimagetext"></p>
+        </div>
+    </div>
+</div>
+
+<!--  This short script sets the initial text below the large image when page loads -->
+<script>
+    d1text = "Daisy, pure bred Female Rhodesian Ridgeback:  2000 - 2013"
+    document.getElementById("largeimagetext").innerHTML = d1text;
+</script>
+
+</body>
+</html>

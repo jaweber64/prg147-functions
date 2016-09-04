@@ -1,0 +1,54 @@
+/* CSS Document */
+
+.w3-container{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.w3-panel{
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background-image: url("lgrey005.jpg");
+    box-sizing: border-box;
+}
+
+h4{
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+}
+
+p {text-align: center;
+   color: darkblue }
+
+#head{
+    font-style:italic;
+    font-weight: bold;
+    text-align:center;
+}
+
+.left{
+    width: 200px;
+    float: left;
+    min-height: 600px;
+    text-align: center;
+}
+.right{
+    width:800px;
+    text-align: center;
+    min-height: 600px;
+    float:right;
+}
+
+img {margin: 10px auto;}
+.left img {width: 100px;}
+
+#large{
+    width: 60%;
+    height: auto;
+}
+
